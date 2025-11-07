@@ -3,7 +3,7 @@ const cors = require("cors");
 require("dotenv").config();
 
 const admin = require("firebase-admin");
-const serviceAccount = require("./dgragonballz-firebase-authentication.json");
+const serviceAccount = require("./dragonball-authentication.json");
 
 const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 
